@@ -4,7 +4,6 @@ import Logo from '@/assets/Logo.png'
 import Link from "./Link"
 import { SelectedPage } from "@/shared/type"
 import useMediaQuery from "@/hooks/useMediaQuery"
-import { button, div } from "framer-motion/client"
 import ActionButtons from "@/shared/ActionButtons"
 
 type Props = {
