@@ -1,5 +1,5 @@
 import { BenefitType, SelectedPage } from "@/shared/type"
-import { motion, stagger } from "framer-motion"
+import { motion } from "framer-motion"
 import { HomeModernIcon, UserGroupIcon, AcademicCapIcon } from "@heroicons/react/24/solid"
 import HText from "@/shared/HText"
 import Benefit from "./Benefit"
@@ -122,7 +122,7 @@ const index = ({ setSelectedPage }: Props) => {
                 tellus. Ullamcorper arcu id pretium sapien proin integer nisl.
                 Felis orci diam odio.
               </p>
-              <p className="mb-5">
+              <p className="mb-7">
                 Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
                 tellus quam porttitor. Mauris velit euismod elementum arcu neque
                 facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit

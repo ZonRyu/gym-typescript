@@ -10,3 +10,9 @@ export interface BenefitType {
     title: string,
     desc: string
 }
+
+export type ClassType = {
+    name: string,
+    desc?: string,
+    image: string
+}
